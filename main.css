@@ -1,0 +1,36 @@
+html,body{
+  margin:0;
+  padding:0;
+  background: url(pic6.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: sans-serif;
+
+}
+h1{
+object-position: center;
+text-align: center;
+text-shadow: 0 0 3px blue, 0 0 5px red;
+
+}
+
+img{
+  width: 280px;
+  height:280px;
+  margin: 30px;
+  transition: all 1s
+}
+img:hover{
+  transform: scale(1.25,1.25);
+}
+.mobile{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+footer{
+  text-align: center;
+  padding: 10px;
+  background-color: DarkSalmon;
+  color: white;
+  display: block;
+}
